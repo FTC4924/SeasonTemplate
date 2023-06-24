@@ -10,9 +10,7 @@ import org.openftc.easyopencv.PipelineRecordingParameters;
 
 import java.util.Arrays;
 
-import static org.firstinspires.ftc.teamcode.Constants.WEBCAM_RECORDING_FILE;
-
-public class CameraRecordingPipeline extends OpenCvPipeline {
+public class CameraRecordingPipeline extends OpenCvPipeline {  // TODO: 6/23/2023 Test to see if the control hub has fixed the broken video codec by running, else delete
 
     public static OpenCvCamera webcam;
 
@@ -23,7 +21,7 @@ public class CameraRecordingPipeline extends OpenCvPipeline {
                     .setEncoder(PipelineRecordingParameters.Encoder.H264)
                     .setOutputFormat(PipelineRecordingParameters.OutputFormat.MPEG_4)
                     .setFrameRate(30)
-                    .setPath(WEBCAM_RECORDING_FILE)
+                    //.setPath(WEBCAM_RECORDING_FILE)
                     .build();
             //webcam.startRecordingPipeline(parameters);
             webcam.showFpsMeterOnViewport(true);

@@ -1,0 +1,4 @@
+- Unit Tests
+- Odometry
+- Domain model diagram
+- runtime/compile time creation of classes with red vs blue alliances
