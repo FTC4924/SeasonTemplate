@@ -11,12 +11,12 @@ public class RobotConstants {
      * Defines the dead zone for controller input.
      */
     @FloatRange(from=0.0, to=1.0)
-    protected static final double CONTROLLER_TOLERANCE = 0.05;
+    public static final double CONTROLLER_TOLERANCE = 0.05;
     /**
      * How close the encoder needs to get to the target position for autonomous to move to the next command.
      */
     public static final double ENCODER_POSITION_TOLERANCE = 100.0;
 
-    // TODO: 6/23/2023 Place robot/global constants here
+    // TODO: 6/23/2023 Put robot/global constants here
 
 }

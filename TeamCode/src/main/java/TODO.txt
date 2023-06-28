@@ -3,12 +3,12 @@
 TODO Fix or Remove visionpipelines.CameraRecordingPipeline
 -TODO Make package names conform to convention
 -TODO Add FTCLib
-TODO Implement FTCLib
-TODO Move all auto code to new autonomous package
-TODO Move all teleop code to new teleop package
+-TODO Implement FTCLib
+-TODO Move all auto code to new autonomous package
+-TODO Move all teleop code to new teleop package
 -TODO Constants to RobotConstants, moving other constants to local files
-TODO Add RoadRunner to teamcode, then refactor into roadrunner package
-TODO -Add and implement ProjectLombok
+-TODO Add RoadRunner to teamcode, then refactor into roadrunner package
+-TODO Add and implement ProjectLombok
 TODO Add examples and templates for EasyOpenCV, FTCLib Subsystems and Commands, Auto Programs, and FTCLib Teleop to com.team4924.examples
 -TODO Create CONVENTIONS.md
 -TODO Make list of ideas to research (unit testing, odometry, domain model diagram, runtime creation of RedTeleop, RedAuto, ...)
