@@ -1,6 +1,6 @@
 -TODO Remove LedDisplayI2cDriver for gradle dependency
 -TODO Archive LoadSensorI2cDriver
-TODO Fix or Remove visionpipelines.CameraRecordingPipeline
+TODO Fix or remove visionpipelines.CameraRecordingPipeline
 -TODO Make package names conform to convention
 -TODO Add FTCLib
 -TODO Implement FTCLib
@@ -15,3 +15,4 @@ TODO Add examples and templates for EasyOpenCV, FTCLib Subsystems and Commands, 
 -TODO Update SDK
 TODO Replace readme.md with our own
 TODO Document code (Javadoc, comments)
+TODO Update RoadRunner if incompatible with RobotController v9.0
